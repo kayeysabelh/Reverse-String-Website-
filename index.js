@@ -8,3 +8,7 @@ function reverseString() {
 
     document.getElementById("result").innerHTML = "Reversed: " + reversed;
 }
+
+window.onload = function() {
+    document.getElementbyId("reverseButton")add.EventListener("click", reverseString);
+};
